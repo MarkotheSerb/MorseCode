@@ -11,8 +11,7 @@ button.addEventListener('click', function() {
     var i;
 
     for (i = 0; i < inputValue.length; i++) {
-      if((inputValue[i] != inputValue[0]) && inputValue[i - 1] == ' '  ) {
-        if ((inputValue[i] == '.')) {
+        if ((inputValue[i] == '.' && inputValue[i - 1] == ' ' )) {
             if (inputValue[i + 1] == ' ') {
                 englishText += 'e'
             } else if (inputValue[i + 1] == '.') {
@@ -161,7 +160,6 @@ button.addEventListener('click', function() {
                     }
                 }
             }
-        }
       }  
     }
 
