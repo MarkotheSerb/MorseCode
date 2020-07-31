@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: powderblue;
+}
+
+.inputArea {
+    text-align: center;
+}
+
+
+.input {
+    margin: 70px 0;
+    height: 50px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-weight: bold;
+    
+}
+
+.button {
+    margin: 70px 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    border-radius: 10px; 
+    font-weight: bold; 
+}
+
+.outputArea {
+    text-align: center;
+}
+
+.output {
+    height: 70px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+.header {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#header:hover {
+    text-decoration: underline;
+}
+
+#header2:hover {
+    text-decoration: underline;
+}
